@@ -29,6 +29,8 @@ from keras import backend as K           #K.image_data_format()
 K.set_image_data_format('channels_last') #K.image_data_format()
 
 
+
+# Call 
 adam = Adam(lr=0.00075, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
 
 #init_=TruncatedNormal(mean=0.0, stddev=0.05,seed=42) ||glorot_normal||glorot_uniform
